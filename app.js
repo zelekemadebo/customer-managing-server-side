@@ -21,7 +21,7 @@ const connection = mysql.createConnection({
   database: process.env.DATABASE,
   user:process.env.USER,
   password: process.env.PASSWORD,
-  port: process.env.PORT
+  // port: process.env.PORT
 });
 
 // // local Database  connection
